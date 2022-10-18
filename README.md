@@ -20,7 +20,13 @@ pip --no-cache-dir install guizero pillow requests numpy sounddevice soundfile
 
 cls
 
-cd libs/la_functions
+mkdir libs
+
+cd
+
+git clone https://github.com/amorfini-luigi/la_functions.git .
+
+cd la_functions
 
 python setup.py build
 
