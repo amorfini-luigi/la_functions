@@ -14,9 +14,8 @@ class ImagesInputOutput():
     def watermark(self, input_image_path, input_font, input_text, output_image_path, fill, font_size):
         """
         Copyright
-
         """
-     
+
         image_watermark = Image.open(input_image_path)
         width, height = image_watermark.size
 
